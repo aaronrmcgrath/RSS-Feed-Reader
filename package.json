@@ -1,0 +1,27 @@
+{
+  "name": "rss-feed-reader",
+  "version": "1.0.0",
+  "description": "RSS Feed Reader to be easy, free, and open.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronrmcgrath/RSS-Feed-Reader.git"
+  },
+  "keywords": [
+    "RSS",
+    "feed",
+    "reader"
+  ],
+  "author": "Aaron R. McGrath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronrmcgrath/RSS-Feed-Reader/issues"
+  },
+  "homepage": "https://github.com/aaronrmcgrath/RSS-Feed-Reader#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
