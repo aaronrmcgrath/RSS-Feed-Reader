@@ -1,0 +1,55 @@
+// CLIENT app
+
+$(document).ready(function(){
+  console.log('Client.js - Hello World!');
+});
+
+/*
+'use strict'
+const
+  fetch = require('node-fetch');
+
+//$(document).domain = 'http://localhost:2301/';
+
+$(document).ready(function(){
+
+  //loadFeedsForPage();
+});
+
+function loadFeedsForPage() {
+  $.ajax({
+    type: 'GET',
+    url: '/feeds',
+    success: function(data){
+      data.feeds.forEach((feed, i) => {
+        //fetchFeed(feed.URL);
+      });
+
+    }
+});
+}
+
+function fetchFeed(feedURL) {
+  fetch(feedURL)
+  .then(response => response.text())
+  .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+  .then(data => {
+    console.log(data);
+    const items = data.querySelectorAll("item");
+    let html = ``;
+    items.forEach(el => {
+      html += `
+        <article>
+          <img src="${el.querySelector("link").innerHTML}/image/large.png" alt="">
+          <h2>
+            <a href="${el.querySelector("link").innerHTML}" target="_blank" rel="noopener">
+              ${el.querySelector("title").innerHTML}
+            </a>
+          </h2>
+        </article>
+      `;
+    });
+    document.body.insertAdjacentHTML("beforeend", html);
+  });
+}
+*/

@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/aaronrmcgrath/RSS-Feed-Reader#readme",
   "dependencies": {
+    "csv-parser": "^2.3.2",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "feed-reader": "^1.1.6",
+    "node-fetch": "^2.6.0"
   }
 }
